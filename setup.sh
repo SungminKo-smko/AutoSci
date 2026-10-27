@@ -132,6 +132,7 @@ ok "Using $VENV_PYTHON"
 
 info "Installing dependencies into .venv..."
 "$VENV_PYTHON" -m pip install -r requirements.txt -q
+"$VENV_PYTHON" -m pip install -r mcp-servers/llm-review/requirements.txt -q
 ok "Dependencies installed into .venv"
 
 # ── Step 3: Configuration files ─────────────────────────────────────────
